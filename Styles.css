@@ -1,0 +1,148 @@
+ul{
+display: flex;
+justify-content: space-around;
+
+}
+
+#titulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    animation-name: piscar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ 
+}
+
+footer{
+    background-color: #2e2e2e;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+
+@keyframes piscar{
+0%{
+    
+    color: aliceblue;
+}
+10%{
+    color: blue;
+}
+20%{
+    color: chartreuse;
+}
+30%{
+    color: darkgreen;
+}
+40%{
+    color: darkmagenta;
+}
+50%{
+    color: darkorange;
+}
+60%{
+    color: darkslategrey;
+}
+70%{
+    color: deeppink;
+}
+80%{
+    color: deepskyblue;
+}
+90%{
+    color: gold;
+}
+100%{
+    color: black;
+    transform: scale(2);
+    
+}
+}
+
+nav ul {
+background-color: #2e2e2e; padding: 10px;
+list-style-type: none;
+
+
+}
+
+img{
+    width: 550px;
+    height: 300px;
+    float: left;
+    border: blue solid;
+    transition-duration: 3s;
+    transform: scale(0.9);
+    cursor: pointer;
+   
+}
+
+.p1{
+   display: flex;
+   text-align: justify;
+   padding-top: 30px;
+   padding-left: 20px;
+   
+}
+
+footer{
+    color: white;
+}
+
+body{
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;  
+    text-align: justify; 
+}
+iframe{
+    display: block;
+    margin: 0 auto; 
+    padding-bottom: 30px;
+}
+
+:link{
+    color: white;
+
+}
+
+:visited{
+    color: red;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+article{
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+#name{
+
+padding-left: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
